@@ -37,7 +37,7 @@ For clarity and ease of interpretation, a color-coded grid system has been imple
 - This problem is the same as the Shortest Path Problem described above, just extended to three-dimensional space. The color-coding is same as before.
 - The image below shows the model's output:
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![](https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/3d_shortest_path.png)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![](https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/3d_shortest_path.png)
 
 ## Optimal Scheduling for Drone Delivery
 - This problem takes as input the warehouse locations, the delivery locations, the number of drones, and the demand of each delivery location, and outputs the position of the drones at each time instant.
