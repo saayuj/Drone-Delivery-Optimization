@@ -11,7 +11,17 @@ This repository contains the work performed during the final year R & D Project 
 3. The results for all the cases can be found in [images_GIFs](https://github.com/saayuj/Drone-Delivery-Optimization/tree/main/images_GIFs).
 
 # Results
+For clarity and ease of interpretation, a color-coded grid system has been implemented, using the following key:
+- Black: Location of obstacles not traversable by the drone (predetermined for a problem setting)
+- Blue: Location of battery charging stations (predetermined for a problem setting)
+- Red: Initial and final points of the drone (predetermined for a problem setting)
+- Purple: Location of battery charging stations that are visited by the drone (given by the model)
+- Green: Grid points that are visited by the drone (given by the model)
+- White: Other grid points
+
 ## Optimizing the Location of Battery Charging Stations
+In this problem, the obstacles are initialized randomly, and the model gives the minimum number of battery charging stations and their locations required for servicing the entire grid. This means that each and every grid cell that does not contain an obstacle has at least one battery charging station within a distance of 2√2 (a variable parameter). This ensures that each and every node is reachable from a battery charging station. Secondly, all the battery charging stations are themselves connected to each other, i.e. there exists a path from each battery charging station to every other battery charging station. This directly implies that a path exists between each free grid cell and every other free grid cell.
+
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_bcs_3.png" width="300" height="300"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_bcs_4.png" width="300" height="300"> 
 
 ## Shortest Path Problem
