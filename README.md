@@ -11,10 +11,10 @@ This repository contains the work performed during the final year R & D Project 
 
 # Results
 ## Optimizing the Location of Battery Charging Stations
-<img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_bcs_3.png" width="400" height="400"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_bcs_4.png" width="400" height="400"> 
+<img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_bcs_3.png" width="400" height="400"> <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_bcs_4.png" width="400" height="400"> 
 
 ## Shortest Path Problem
 <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/shortest_path_1.png" width="400" height="400">  <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/shortest_path_2.png" width="400" height="400"> 
 
 ## Optimal Scheduling for Drone Delivery
-<img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_scheduling_3del.gif" width="500" height="400">  <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_scheduling_3del_2.gif" width="500" height="400"> 
+<img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_scheduling_3del.gif" width="400" height="300">  <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_scheduling_3del_2.gif" width="400" height="300"> 
