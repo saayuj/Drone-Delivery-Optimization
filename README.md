@@ -33,6 +33,12 @@ For clarity and ease of interpretation, a color-coded grid system has been imple
 
 &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/shortest_path_1.png" width="310" height="300"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/shortest_path_2.png" width="310" height="300"> 
 
+## Shortest Path Problem - 3D
+- This problem is the same as the Shortest Path Problem described above, just extended to three-dimensional space. The color-coding is same as before.
+- The image below shows the model's output:
+
+![](https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/3d_shortest_path.png)
+
 ## Optimal Scheduling for Drone Delivery
 - This problem takes as input the warehouse locations, the delivery locations, the number of drones, and the demand of each delivery location, and outputs the position of the drones at each time instant.
 - The updated key for the color-coded grid system is as follows:
@@ -44,9 +50,3 @@ For clarity and ease of interpretation, a color-coded grid system has been imple
 - The GIFs below show the model's output for two cases:
 
 <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_scheduling_3del.gif" width="400" height="300">  <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_scheduling_3del_2.gif" width="400" height="300"> 
-
-## Shortest Path Problem - 3D
-- This problem is the same as the Shortest Path Problem described above, just extended to three-dimensional space. The color-coding is same as before.
-- The image below shows the model's output:
-
-![](https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/3d_shortest_path.png)
