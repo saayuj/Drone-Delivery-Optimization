@@ -8,6 +8,7 @@ This repository contains the work performed during the final year R & D Project 
   1. The main optimization codes written to solve the various cases, along with the helper codes, can be found in [python_codes](https://github.com/saayuj/Drone-Delivery-Optimization/tree/main/python_codes).
   2. The optimization log files for each case can be found in [log_files](https://github.com/saayuj/Drone-Delivery-Optimization/tree/main/log_files).
   3. The results for all the cases can be found in [images_GIFs](https://github.com/saayuj/Drone-Delivery-Optimization/tree/main/images_GIFs).
+  4. Initially, the problem was formulated using [AMPL](https://ampl.com/). These files can be found in [AMPL_files](https://github.com/saayuj/Drone-Delivery-Optimization/tree/main/AMPL_files). The .mod files are the main optimization models, while the .dat and .run files are used to feed the data to the model and run the model respectively. The .txt files contain the output of the model and the python codes are for pre-processing the data and post-processing the output to form a visual representation (grid).
 
 # Results
 For clarity and ease of interpretation, a color-coded grid system has been implemented, using the following key:
