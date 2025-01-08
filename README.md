@@ -47,6 +47,6 @@ For clarity and ease of interpretation, a color-coded grid system has been imple
 
 ## Shortest Path Problem - 3D
 - This problem is the same as the Shortest Path Problem described above, just extended to three-dimensional space. The color-coding is same as before.
-- The image below show the model's output:
+- The image below shows the model's output:
 
 ![](https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/3d_shortest_path.png)
