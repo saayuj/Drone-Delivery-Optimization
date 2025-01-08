@@ -1,0 +1,12 @@
+reset;
+option solver gurobi;
+#option display_round 0;
+#option display_eps 1e-10;
+option omit_zero_rows 0;
+model C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\AMPL\twodrone_multipackage_2.mod;
+data C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\AMPL\twodrone_multipackage.dat;
+solve;
+display {t in 1..time}: {i in 1..grid_size, j in 1..grid_size} nodes[1, i, j, t] > nodes2.txt;
+display flag > flag.txt;
+#option omit_zero_rows 1;
+#display {t in 1..time}: {n in 1..number_of_drones, i in 1..grid_size, j in 1..grid_size} bss_visited[n, i, j, t] > battery_stations_visited2.txt;

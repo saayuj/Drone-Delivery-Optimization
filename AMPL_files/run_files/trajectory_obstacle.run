@@ -1,0 +1,6 @@
+reset;
+option solver cplex;
+model C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\trajectory_obstacle.mod;
+data C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\trajectory_obstacle.dat;
+solve;
+display x;

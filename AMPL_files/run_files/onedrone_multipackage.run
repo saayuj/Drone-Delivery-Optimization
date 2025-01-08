@@ -1,0 +1,8 @@
+reset;
+option solver gurobi;
+option display_eps 1e-10;
+model C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\AMPL\onedrone_multipackage.mod;
+data C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\AMPL\onedrone_multipackage.dat;
+solve;
+display {t in 1..time}: {i in 1..grid_size, j in 1..grid_size} nodes[i, j, t] > nodes2.txt;
+display flag > flag.txt;

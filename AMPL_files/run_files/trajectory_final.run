@@ -1,0 +1,7 @@
+reset;
+option solver gurobi;
+model C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\AMPL\trajectory_final.mod;
+data C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\AMPL\trajectory_final.dat;
+solve;
+display nodes > nodes.txt;
+display bss_visited > battery_stations_visited.txt;

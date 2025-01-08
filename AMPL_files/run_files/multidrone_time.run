@@ -1,0 +1,11 @@
+reset;
+option solver gurobi;
+#option display_round 0;
+option display_eps 1e-10;
+option omit_zero_rows 1;
+model C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\AMPL\multidrone_time_2.mod;
+data C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\AMPL\multidrone_time.dat;
+solve;
+display {t in 1..time}: {n in 1..number_of_drones, i in 1..grid_size, j in 1..grid_size} nodes[n, i, j, t] > nodes.txt;
+option omit_zero_rows 0;
+display {t in 1..time}: {n in 1..number_of_drones, i in 1..grid_size, j in 1..grid_size} bss_visited[n, i, j, t] > battery_stations_visited.txt;

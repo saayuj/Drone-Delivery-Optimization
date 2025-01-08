@@ -1,0 +1,6 @@
+reset;
+option solver cplex;
+model C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\AMPL\trajectory.mod;
+data C:\Saayuj\IITBombay\Academic\Sem6\ME308\Codes\AMPL\trajectory.dat;
+solve;
+display x;
