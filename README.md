@@ -1,5 +1,5 @@
 # Introduction
-This repository contains the work performed during the final year R & D Project at the Indian Institute of Technology Bombay. I worked with my peer Purushotham Mani under the supervision of Prof Avinash Bharwaj, Dept. of Industrial Engineering and Operations Research, IITB.
+This repository contains the work performed during the final year R & D Project at the Indian Institute of Technology Bombay. I worked with my peer Purushotham Mani under the supervision of Prof Avinash Bhardwaj, Dept. of Industrial Engineering and Operations Research, IITB.
 
 # Guide
 - For a detailed description, methodology, and results of the project, the manuscript [Drone Delivery Optimization.pdf](https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/Drone%20Delivery%20Optimization.pdf) can be viewed. The manuscript has also been uploaded on arXiv. [link](https://arxiv.org/abs/2311.17375)
@@ -11,17 +11,10 @@ This repository contains the work performed during the final year R & D Project 
 
 # Results
 ## Optimizing the Location of Battery Charging Stations
-- 
-  ![](https://github.com/saayuj/Snake-Robot/blob/main/images_GIFs/Snake_variable_amplitude_no_bias.gif)
-  
-- 
-  ![](https://github.com/saayuj/Snake-Robot/blob/main/images_GIFs/3d_caterpillar.gif)
+<img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_bcs_3.png" width="400" height="400"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_bcs_4.png" width="400" height="400"> 
 
 ## Shortest Path Problem
-- 
-  ![](https://github.com/saayuj/Snake-Robot/blob/main/images_GIFs/planar_hardware.gif)
-  
-- 
-  ![](https://github.com/saayuj/Snake-Robot/blob/main/images_GIFs/3d_hardware.gif)
+<img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/shortest_path_1.png" width="400" height="400">  <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/shortest_path_2.png" width="400" height="400"> 
 
 ## Optimal Scheduling for Drone Delivery
+<img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_scheduling_3del.gif" width="500" height="400">  <img src="https://github.com/saayuj/Drone-Delivery-Optimization/blob/main/images_GIFs/optimal_scheduling_3del_2.gif" width="500" height="400"> 
